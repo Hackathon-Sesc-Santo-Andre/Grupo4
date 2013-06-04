@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/6/dev-open/zxing-android/res/layout
+END
+search_book_contents.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/!svn/ver/6/dev-open/zxing-android/res/layout/search_book_contents.xml
+END
+bookmark_picker_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/!svn/ver/6/dev-open/zxing-android/res/layout/bookmark_picker_list_item.xml
+END
+network.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/6/dev-open/zxing-android/res/layout/network.xml
+END
+search_book_contents_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/!svn/ver/6/dev-open/zxing-android/res/layout/search_book_contents_list_item.xml
+END
+share.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/6/dev-open/zxing-android/res/layout/share.xml
+END
+help.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/6/dev-open/zxing-android/res/layout/help.xml
+END
+search_book_contents_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/!svn/ver/6/dev-open/zxing-android/res/layout/search_book_contents_header.xml
+END
+capture.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/6/dev-open/zxing-android/res/layout/capture.xml
+END
+encode.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/6/dev-open/zxing-android/res/layout/encode.xml
+END

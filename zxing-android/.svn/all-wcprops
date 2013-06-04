@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/!svn/ver/5/dev-open/zxing-android
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/7/dev-open/zxing-android/default.properties
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/6/dev-open/zxing-android/build.properties
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/9/dev-open/zxing-android/AndroidManifest.xml
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/6/dev-open/zxing-android/build.xml
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/7/dev-open/zxing-android/project.properties
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/6/dev-open/zxing-android/.project
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/6/dev-open/zxing-android/.classpath
+END
