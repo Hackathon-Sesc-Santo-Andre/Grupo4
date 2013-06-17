@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<resources>
-    <string name="scan">Scan</string>
-    <string name="scan_resut_lable">Scan Result:</string>
-    <string name="btnOuvir">Ouvir</string>
-    <string name="btnLer">Ler</string>
-    <string name="btnScan">Scan</string>
-    <string name="app_name">Appreciador</string>
-</resources>

@@ -1,1 +1,0 @@
-Repositorio para os projetos android.

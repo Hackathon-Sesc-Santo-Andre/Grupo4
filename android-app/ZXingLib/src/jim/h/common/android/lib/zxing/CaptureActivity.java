@@ -101,7 +101,8 @@ public final class CaptureActivity extends Activity implements SurfaceHolder.Cal
         beepManager = new BeepManager(this, config);
     }
 
-    @Override
+    @SuppressWarnings("deprecation")
+	@Override
     protected void onResume() {
         super.onResume();
         resetStatusView();
@@ -188,7 +189,8 @@ public final class CaptureActivity extends Activity implements SurfaceHolder.Cal
      * @param rawResult The contents of the barcode.
      * @param barcode A greyscale bitmap of the camera data which was decoded.
      */
-    public void handleDecode(Result rawResult, Bitmap barcode) {
+    @SuppressWarnings("deprecation")
+	public void handleDecode(Result rawResult, Bitmap barcode) {
         inactivityTimer.onActivity();
 
         beepManager.playBeepSoundAndVibrate();
@@ -198,7 +200,8 @@ public final class CaptureActivity extends Activity implements SurfaceHolder.Cal
 
         String resultContent = rawResult.toString();
         if (config.copyToClipboard) {
-            ClipboardManager clipboard = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
+            @SuppressWarnings("deprecation")
+			ClipboardManager clipboard = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
             clipboard.setText(resultContent);
         }
 
