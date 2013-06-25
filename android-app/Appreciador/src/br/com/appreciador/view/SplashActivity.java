@@ -1,7 +1,5 @@
 package br.com.appreciador.view;
 
-import jim.h.common.android.lib.zxing.sample.BaseActivity;
-import jim.h.common.android.lib.zxing.sample.MainActivity;
 import jim.h.common.android.lib.zxing.sample.R;
 import android.app.Activity;
 import android.content.Intent;

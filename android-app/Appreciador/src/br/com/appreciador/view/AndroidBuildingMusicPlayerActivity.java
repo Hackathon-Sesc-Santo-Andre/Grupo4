@@ -1,33 +1,23 @@
 package br.com.appreciador.view;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Random;
-
-import roboguice.activity.RoboActivity;
-import roboguice.inject.InjectView;
-
-import com.androidquery.AQuery;
 
 import jim.h.common.android.lib.zxing.sample.R;
-
-import android.app.Activity;
+import roboguice.activity.RoboActivity;
+import roboguice.inject.InjectView;
 import android.content.Intent;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
-import android.media.MediaPlayer.OnCompletionListener;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import com.androidquery.AQuery;
 
 public class AndroidBuildingMusicPlayerActivity extends RoboActivity implements SeekBar.OnSeekBarChangeListener {
 	private  MediaPlayer mp;
@@ -36,7 +26,7 @@ public class AndroidBuildingMusicPlayerActivity extends RoboActivity implements 
 	private Utilities utils;
 	private int seekForwardTime = 5000; // 5000 milliseconds
 	private int seekBackwardTime = 5000; // 5000 milliseconds
-	private String song = "http://mundowebproducoes.com.br/app/wp-content/uploads/2013/06/1-Take-Five.mp3";
+	private String song; // = "http://mundowebproducoes.com.br/app/wp-content/uploads/2013/06/1-Take-Five.mp3";
 	private AQuery aq;
 	private String tag = "AudioActivity";
 	
@@ -49,6 +39,14 @@ public class AndroidBuildingMusicPlayerActivity extends RoboActivity implements 
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.player);
+		
+		Intent intent = getIntent();
+		if(intent.getExtras() != null){
+			Bundle parametro = intent.getExtras();
+			if(parametro != null){
+				song = parametro.getString("resultado_qrcode").replaceAll("dir", "audio") + ".mp3";				
+			}
+		}
 		
         try {
             mp = new MediaPlayer();

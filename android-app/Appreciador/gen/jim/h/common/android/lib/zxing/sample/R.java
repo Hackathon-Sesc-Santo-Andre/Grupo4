@@ -82,13 +82,13 @@ public final class R {
         public static final int zxinglib_icon=0x7f02002b;
     }
     public static final class id {
-        public static final int action_forgot_password=0x7f070022;
-        public static final int action_settings=0x7f070021;
-        public static final int btnBackward=0x7f070016;
-        public static final int btnForward=0x7f070018;
+        public static final int action_forgot_password=0x7f070023;
+        public static final int action_settings=0x7f070022;
+        public static final int btnBackward=0x7f070017;
+        public static final int btnForward=0x7f070019;
         public static final int btnLer=0x7f07000e;
         public static final int btnOuvir=0x7f07000d;
-        public static final int btnPlay=0x7f070017;
+        public static final int btnPlay=0x7f070018;
         public static final int email=0x7f070009;
         public static final int login=0x7f07000b;
         public static final int login_form=0x7f070008;
@@ -96,17 +96,18 @@ public final class R {
         public static final int login_status_message=0x7f070007;
         public static final int logo=0x7f07000f;
         public static final int password=0x7f07000a;
-        public static final int player_footer_bg=0x7f070015;
-        public static final int player_header_bg=0x7f070012;
+        public static final int player_footer_bg=0x7f070016;
+        public static final int player_header_bg=0x7f070013;
         public static final int progressBar1=0x7f070011;
-        public static final int scan_button=0x7f07001d;
+        public static final int scan_button=0x7f07001e;
         public static final int sign_in_button=0x7f07000c;
-        public static final int songCurrentDurationLabel=0x7f07001b;
-        public static final int songProgressBar=0x7f070019;
-        public static final int songThumbnail=0x7f070014;
-        public static final int songTitle=0x7f070013;
-        public static final int songTotalDurationLabel=0x7f07001c;
-        public static final int timerDisplay=0x7f07001a;
+        public static final int songCurrentDurationLabel=0x7f07001c;
+        public static final int songProgressBar=0x7f07001a;
+        public static final int songThumbnail=0x7f070015;
+        public static final int songTitle=0x7f070014;
+        public static final int songTotalDurationLabel=0x7f07001d;
+        public static final int textohtml=0x7f070012;
+        public static final int timerDisplay=0x7f07001b;
         public static final int txAppName=0x7f070010;
         /**  Messages IDs 
          */
@@ -114,58 +115,61 @@ public final class R {
         public static final int zxinglib_decode=0x7f070001;
         public static final int zxinglib_decode_failed=0x7f070002;
         public static final int zxinglib_decode_succeeded=0x7f070003;
-        public static final int zxinglib_preview_view=0x7f07001e;
+        public static final int zxinglib_preview_view=0x7f07001f;
         public static final int zxinglib_quit=0x7f070004;
         public static final int zxinglib_return_scan_result=0x7f070005;
-        public static final int zxinglib_status_view=0x7f070020;
-        public static final int zxinglib_viewfinder_view=0x7f07001f;
+        public static final int zxinglib_status_view=0x7f070021;
+        public static final int zxinglib_viewfinder_view=0x7f070020;
     }
     public static final class layout {
         public static final int activity_audio=0x7f030000;
         public static final int activity_login=0x7f030001;
         public static final int activity_main=0x7f030002;
         public static final int activity_splash=0x7f030003;
-        public static final int bg_player_footer=0x7f030004;
-        public static final int bg_player_header=0x7f030005;
-        public static final int player=0x7f030006;
-        public static final int rounded_corner=0x7f030007;
-        public static final int scan_activity=0x7f030008;
-        public static final int zxinglib_capture=0x7f030009;
+        public static final int activity_texto=0x7f030004;
+        public static final int bg_player_footer=0x7f030005;
+        public static final int bg_player_header=0x7f030006;
+        public static final int player=0x7f030007;
+        public static final int rounded_corner=0x7f030008;
+        public static final int scan_activity=0x7f030009;
+        public static final int zxinglib_capture=0x7f03000a;
     }
     public static final class menu {
-        public static final int audio=0x7f0b0000;
-        public static final int base=0x7f0b0001;
-        public static final int login=0x7f0b0002;
-        public static final int splash=0x7f0b0003;
+        public static final int activity_texto=0x7f0b0000;
+        public static final int audio=0x7f0b0001;
+        public static final int base=0x7f0b0002;
+        public static final int login=0x7f0b0003;
+        public static final int splash=0x7f0b0004;
     }
     public static final class raw {
         public static final int zxinglib_beep=0x7f050000;
     }
     public static final class string {
-        public static final int action_forgot_password=0x7f080013;
+        public static final int action_forgot_password=0x7f080014;
         public static final int action_settings=0x7f08000a;
-        public static final int action_sign_in_register=0x7f080011;
-        public static final int action_sign_in_short=0x7f080012;
+        public static final int action_sign_in_register=0x7f080012;
+        public static final int action_sign_in_short=0x7f080013;
         public static final int app_name=0x7f080007;
         public static final int btnLer=0x7f080005;
         public static final int btnOuvir=0x7f080004;
         public static final int btnScan=0x7f080006;
-        public static final int error_field_required=0x7f080018;
-        public static final int error_incorrect_password=0x7f080017;
-        public static final int error_invalid_email=0x7f080015;
-        public static final int error_invalid_password=0x7f080016;
+        public static final int error_field_required=0x7f080019;
+        public static final int error_incorrect_password=0x7f080018;
+        public static final int error_invalid_email=0x7f080016;
+        public static final int error_invalid_password=0x7f080017;
         public static final int explanation=0x7f080008;
         public static final int hello_world=0x7f08000b;
-        public static final int login_progress_signing_in=0x7f080014;
+        public static final int login_progress_signing_in=0x7f080015;
         /**  Strings related to login 
          */
-        public static final int prompt_email=0x7f08000f;
-        public static final int prompt_password=0x7f080010;
+        public static final int prompt_email=0x7f080010;
+        public static final int prompt_password=0x7f080011;
         public static final int scan=0x7f080002;
         public static final int scan_resut_lable=0x7f080003;
+        public static final int title_activity_activity_texto=0x7f08000e;
         public static final int title_activity_audio=0x7f08000d;
         public static final int title_activity_base=0x7f08000c;
-        public static final int title_activity_login=0x7f08000e;
+        public static final int title_activity_login=0x7f08000f;
         public static final int title_activity_splash=0x7f080009;
         public static final int zxinglib_app_name=0x7f080000;
         public static final int zxinglib_msg_default_status=0x7f080001;

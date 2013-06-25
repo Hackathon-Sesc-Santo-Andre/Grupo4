@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="11"
+        android:minSdkVersion="7"
         android:targetSdkVersion="17" />
 
     <supports-screens
@@ -36,11 +36,11 @@
         android:icon="@drawable/ic_logoappliacativo"
         android:label="@string/app_name" >
         <activity
-            android:name="jim.h.common.android.lib.zxing.sample.MainActivity"
+            android:name="br.com.appreciador.view.MainActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/app_name" >
         </activity>
-        <activity android:name="jim.h.common.android.lib.zxing.sample.ScanActivity" />
+        <activity android:name="br.com.appreciador.view.ScanActivity" />
         <activity
             android:name="jim.h.common.android.lib.zxing.CaptureActivity"
             android:configChanges="orientation|keyboardHidden"
@@ -65,7 +65,7 @@
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name="jim.h.common.android.lib.zxing.sample.BaseActivity"
+            android:name="br.com.appreciador.view.BaseActivity"
             android:label="@string/title_activity_base" >
         </activity>
         <activity
@@ -73,9 +73,13 @@
             android:label="@string/title_activity_audio" >
         </activity>
         <activity
-            android:name="jim.h.common.android.lib.zxing.sample.LoginActivity"
+            android:name="br.com.appreciador.view.LoginActivity"
             android:label="@string/title_activity_login"
             android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="br.com.appreciador.view.ActivityTexto"
+            android:label="@string/title_activity_activity_texto" >
         </activity>
     </application>
 
