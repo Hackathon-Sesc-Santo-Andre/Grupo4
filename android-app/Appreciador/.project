@@ -3,6 +3,7 @@
 	<name>Appreciador</name>
 	<comment></comment>
 	<projects>
+		<project>facebook</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

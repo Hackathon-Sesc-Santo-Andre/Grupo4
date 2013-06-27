@@ -6,6 +6,7 @@
     <string name="btnOuvir">Ouvir</string>
     <string name="btnLer">Ler</string>
     <string name="btnScan">Scan</string>
+    <string name="btnFacebook">Facebook</string>
     <string name="app_name">Appreciador</string>
     <string name="explanation">Attach NFC Tag to read the content.</string>
     <string name="title_activity_splash">SplashActivity</string>

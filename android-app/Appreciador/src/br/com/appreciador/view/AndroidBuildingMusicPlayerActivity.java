@@ -45,7 +45,6 @@ public class AndroidBuildingMusicPlayerActivity extends RoboActivity implements 
 			Bundle parametro = intent.getExtras();
 			if(parametro != null){
 				song = parametro.getString("resultado_qrcode").replaceAll("dir", "audio") + ".mp3";	
-				Log.i(tag, song);
 			}
 		}
 		
